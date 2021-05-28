@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-12T10:43:36 IST" name="Suite" finished-at="2021-05-12T10:45:19 IST" duration-ms="103468">
+    <groups>
+      <group name="c5.ActionByAgent">
+        <method signature="Test_AgentLogin.ActionByAgent()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" name="ActionByAgent" class="Academy.Test_AgentLogin"/>
+      </group> <!-- c5.ActionByAgent -->
+      <group name="c3.ApproveDeny">
+        <method signature="Test_AgentLogin.ApproveDeny()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" name="ApproveDeny" class="Academy.Test_AgentLogin"/>
+      </group> <!-- c3.ApproveDeny -->
+      <group name="c1.basePageNavigation">
+        <method signature="Test_AgentLogin.basePageNavigation()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" name="basePageNavigation" class="Academy.Test_AgentLogin"/>
+      </group> <!-- c1.basePageNavigation -->
+      <group name="c4.ClientSideChat">
+        <method signature="Test_ClientLogin.ClientSideChat()[pri:0, instance:Academy.Test_ClientLogin@3d1cfad4]" name="ClientSideChat" class="Academy.Test_ClientLogin"/>
+      </group> <!-- c4.ClientSideChat -->
+      <group name="c2.ClientJoiningCall">
+        <method signature="Test_ClientLogin.ClientJoiningCall()[pri:0, instance:Academy.Test_ClientLogin@3d1cfad4]" name="ClientJoiningCall" class="Academy.Test_ClientLogin"/>
+      </group> <!-- c2.ClientJoiningCall -->
+      <group name="c6.end">
+        <method signature="Test_AgentLogin.end()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" name="end" class="Academy.Test_AgentLogin"/>
+      </group> <!-- c6.end -->
+    </groups>
+    <test started-at="2021-05-12T10:43:36 IST" name="Test" finished-at="2021-05-12T10:45:19 IST" duration-ms="103468">
+      <class name="Academy.Test_ClientLogin">
+        <test-method signature="ClientJoiningCall()[pri:0, instance:Academy.Test_ClientLogin@3d1cfad4]" started-at="2021-05-12T10:43:56 IST" name="ClientJoiningCall" depends-on-groups="c1.basePageNavigation" finished-at="2021-05-12T10:44:08 IST" duration-ms="12539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClientJoiningCall -->
+        <test-method signature="ClientSideChat()[pri:0, instance:Academy.Test_ClientLogin@3d1cfad4]" started-at="2021-05-12T10:44:12 IST" name="ClientSideChat" depends-on-groups="c3.ApproveDeny" finished-at="2021-05-12T10:44:39 IST" duration-ms="26723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClientSideChat -->
+        <test-method signature="endClient()[pri:0, instance:Academy.Test_ClientLogin@3d1cfad4]" started-at="2021-05-12T10:45:16 IST" name="endClient" depends-on-groups="c6.end" finished-at="2021-05-12T10:45:19 IST" duration-ms="3361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClient -->
+      </class> <!-- Academy.Test_ClientLogin -->
+      <class name="Academy.Test_AgentLogin">
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" started-at="2021-05-12T10:43:36 IST" name="basePageNavigation" finished-at="2021-05-12T10:43:56 IST" duration-ms="19688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="ApproveDeny()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" started-at="2021-05-12T10:44:08 IST" name="ApproveDeny" depends-on-groups="c2.ClientJoiningCall" finished-at="2021-05-12T10:44:12 IST" duration-ms="3659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApproveDeny -->
+        <test-method signature="ActionByAgent()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" started-at="2021-05-12T10:44:39 IST" name="ActionByAgent" depends-on-groups="c4.ClientSideChat" finished-at="2021-05-12T10:45:06 IST" duration-ms="27653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActionByAgent -->
+        <test-method signature="end()[pri:0, instance:Academy.Test_AgentLogin@747edf66]" started-at="2021-05-12T10:45:06 IST" name="end" depends-on-groups="c5.ActionByAgent" finished-at="2021-05-12T10:45:16 IST" duration-ms="9693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- Academy.Test_AgentLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
